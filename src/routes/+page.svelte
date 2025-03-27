@@ -25,7 +25,7 @@
 <div class="flex justify-center items-center min-h-screen">
     <div class="w-full max-w-2xl p-[5em]">
         <Search bind:value={searchQuery}>
-            <Button class="me-1" on:click={handleSearch}>Search</Button>
+            <Button class="me-1" on:click={handleSearch}>描述你想說服的對象，跟你的狀況</Button>
         </Search>
     </div>
 </div>
